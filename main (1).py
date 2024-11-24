@@ -3,9 +3,9 @@ import base64
 import chainlit as cl
 import os
 
-os.environ['OPENAI_APT_KEY']='sk-proj-xT1sMy4bkdlEHOHYUVe9T3BlbkFJvZP8cSGIJgBEtwL4r8VT'
+os.environ['OPENAI_APT_KEY']='USE-YOUR-KEY'
 
-client = OpenAI(api_key='sk-proj-xT1sMy4bkdlEHOHYUVe9T3BlbkFJvZP8cSGIJgBEtwL4r8VT')
+client = OpenAI(api_key='MY DEAREST USE-YOUR-KEY')
 
 
 def append_messages(image_url=None, query=None, audio_transcript=None):
